@@ -1,32 +1,28 @@
 import java.util.Scanner;
 
 public class oddEvenSum {
+
+    //리팩토링: 메소드 추상화, 스프링을 공부하기 위해 필요하다.
+    //중복되는 기능은 하나의 method로 정리해야 한다.
+    public static String getEvenOdd(int num) {
+        //숫자를 받아서 짝수면 '짝수', 홀수면 '홀수' 리턴
+        if (num % 2 == 0) {
+            return "짝수";
+        }else {
+            return "홀수";
+        }
+    }
+
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-        int num1, num2;
-        num1 = sc.nextInt();
-        num2 = sc.nextInt();
-        String num1Return, num2Return, SumReturn;
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int resNum = num1 + num2;
 
-        if (!(num1%2==0)){
-            num1Return = "홀수";
-        }else {
-            num1Return = "짝수";
-        }
+        String sNum1 = getEvenOdd(num1);
+        String sNum2 = getEvenOdd(num2);
+        String sResNum = getEvenOdd(resNum);
 
-        if (!(num2%2==0)){
-            num2Return = "홀수";
-        }else {
-            num2Return = "짝수";
-        }
-
-        if (!((num1 + num2)%2 ==0)){
-            SumReturn = "홀수";
-        }else {
-            SumReturn = "짝수";
-        }
-
-        System.out.println(num1Return + "+" + num2Return + "=" + SumReturn );
+        System.out.println( sNum1 + "+" + sNum2 + "=" + sResNum );
     }
 }
