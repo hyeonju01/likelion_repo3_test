@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CurrencyCnt {
     public static void main(String[] args) {
-        System.out.println("금액을 넣으세요: ");
+        System.out.print("금액을 넣으세요: ");
         Scanner sc = new Scanner(System.in);
         int money = sc.nextInt();
         int temp = 0;
@@ -23,14 +23,14 @@ public class CurrencyCnt {
         int cnt_10 = temp / 10;
         temp= temp % 10;
 
-        System.out.println("50000원: " + + cnt_50000 + "개");
-        System.out.println("10000원: " + + cnt_10000 + "개");
-        System.out.println("5000원: " + + cnt_5000 + "개");
-        System.out.println("1000원: " + + cnt_1000 + "개");
-        System.out.println("500원: " + + cnt_500 + "개");
-        System.out.println("100원: " + + cnt_100 + "개");
-        System.out.println("50원: " + + cnt_50 + "개");
-        System.out.println("10원: " + + cnt_10 + "개");
+        System.out.println("50000원: " + cnt_50000 + "개");
+        System.out.println("10000원: " + cnt_10000 + "개");
+        System.out.println("5000원: " + cnt_5000 + "개");
+        System.out.println("1000원: " + cnt_1000 + "개");
+        System.out.println("500원: " + cnt_500 + "개");
+        System.out.println("100원: " + cnt_100 + "개");
+        System.out.println("50원: " + cnt_50 + "개");
+        System.out.println("10원: " + cnt_10 + "개");
 
 
 
