@@ -5,7 +5,7 @@ public class RandomCalculator {
     int RandomNumber = (int)(Math.random() * 10) + 0;
 
     public void getRandomNumber(){
-        System.out.println("랜덤 넘버는: " + RandomNumber + " 입니다.");
+        System.out.println("랜덤 넘버는 " + RandomNumber + " 입니다.");
     }
     public void plus(int a){
         System.out.println(RandomNumber);
