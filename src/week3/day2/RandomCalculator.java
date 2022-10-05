@@ -31,7 +31,7 @@ public class RandomCalculator {
         if (RandomNumber == 0){
             System.out.println("랜덤 넘버가 0입니다.");
         }else {
-            int result = num / RandomNumber;
+            float result = (float) num / (float) RandomNumber;
             System.out.println("나눗셈 결과는: " + result);
         }
     }
