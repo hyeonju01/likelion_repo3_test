@@ -13,3 +13,15 @@ public class FileListPrint {
     }
 
 }
+
+/*
+*
+* ./.DS_Store
+./out
+./likeLion.iml
+./.git
+./a_file.txt
+./.idea
+./src
+*
+* */
