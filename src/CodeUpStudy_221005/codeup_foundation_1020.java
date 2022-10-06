@@ -1,4 +1,4 @@
-package CodeUpStudy;
+package CodeUpStudy_221005;
 
 import java.util.Scanner;
 

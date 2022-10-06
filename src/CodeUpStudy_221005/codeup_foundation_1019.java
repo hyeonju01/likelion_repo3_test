@@ -1,10 +1,8 @@
-package CodeUpStudy;
+package CodeUpStudy_221005;
 //1019 : [기초-입출력] 연월일 입력받아 그대로 출력하기
 
-import java.sql.SQLOutput;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.*;
 

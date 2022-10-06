@@ -1,3 +1,5 @@
+package CodeUpStudy_221004;
+
 import java.util.Scanner;
 
 public class codeup_foundation_1010 {

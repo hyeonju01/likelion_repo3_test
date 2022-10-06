@@ -1,3 +1,5 @@
+package CodeUpStudy_221004;
+
 public class codeup_foundation_1008 {
     public static void main(String[] args) {
         System.out.println("\u250C"+"\u252C"+"\u2510");

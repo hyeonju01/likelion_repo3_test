@@ -1,4 +1,4 @@
-package CodeUpStudy;
+package CodeUpStudy_221005;
 //1018 : [기초-입출력] 시간 입력받아 그대로 출력하기(설명)
 
 import java.util.Scanner;

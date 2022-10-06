@@ -8,7 +8,6 @@ public class UserDao {
 
     public static void main(String[] args) {
         UserDao userDao = new UserDao();// 코드 초반에 실행한다.
-
         userDao.plus(10, 20);
         // 안되는 이유는?
 
