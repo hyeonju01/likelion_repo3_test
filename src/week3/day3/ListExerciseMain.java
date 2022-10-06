@@ -10,5 +10,6 @@ public class ListExerciseMain {
         for (String student : students ) {
             System.out.println(student);
         }
+        System.out.println("전체 학생은: " + students.size() + "명 입니다.");
     }
 }
